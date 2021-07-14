@@ -1,0 +1,322 @@
+* {
+    box-shadow: 0;
+}
+
+form#login-user {
+    padding: 4%;
+   
+}
+form#login-user fieldset {
+    border: thin solid rgba(0, 0, 255, 0.2);
+    box-shadow: 0.1px 0.2px 0.1px rgba(0, 0, 255, 0.2);
+    width: 100%;
+    border-radius: 3px;
+    max-width: 500px;
+    margin: 0% auto;
+    padding: 5%;
+}
+#login-user fieldset legend {
+    text-align: center;
+    padding:5px;
+    color: blue;
+    letter-spacing: 1px;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 600;
+}
+#login-user fieldset label, #login-user fieldset input {
+    display: block;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 600;
+    color: rgba(0,0,250,0.8);
+    letter-spacing: 1px;
+    /* margin: 4% 20%; */
+}
+#login-user input:not(input[value="DONE"]) {
+    width: 100%;
+    padding: 10px ;
+    margin-bottom: 5px;
+    border: thin solid rgba(0, 0, 255, 0.7);
+    outline: none;
+    margin-top: 10px;
+}
+#login-user fieldset input[value="Login"] {
+    padding: 10px 15px;
+    border: thin solid rgba(0, 0, 255, 0.7);
+    background-color:rgba(0, 0, 255, 0.7);
+    border-radius: 3px;
+    color: #fff;
+    display: block;
+    cursor: pointer;
+    margin-top:10px;
+}
+
+.sts {
+    display: none;
+    width:100%;
+    position: relative;
+    background-color: rgb(62, 29, 66);
+}
+.sts .start {
+    position:relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: 2% auto;
+}
+.sts .start #offer {
+    width: 100%;
+    padding:2%;
+    font-size :30px;
+    font-weight: 600;
+    text-align:center;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 1px;
+    color:rgb(103, 163, 165);
+}
+.sts .start #offers {
+    list-style: none;
+    border-top:thin solid rgba(70, 150, 187,0.2);
+}
+.sts .start #offers li {
+    font-family:'Poppins', serif ;
+    margin: 2%;
+    width: 100%;
+    padding: 4%;
+    /* background-color: red; */
+    font-weight:600;
+    font-size:17px;
+    padding: 5px;
+}
+.sts .start #offers li span{
+    color: rgb(70, 150, 187);
+    padding: 2%;
+}
+.sts .start #offers li  a {
+    position: absolute;
+}
+.sts .start #offers li a.call {
+    color:white;
+    right: 10%;
+}
+.sts .start #offers li a.call+a {
+    color: rgb(70, 150, 187);
+    right: 5%;
+}
+.sts .start #offers li a.youtube-play {
+    color:rgb(241, 13, 13);
+    padding:1px 7px;
+    border: 5px;
+    font-size:17px;
+    border-radius:1px;
+    border: thin solid rgba(238, 232, 232, 0.2);
+    right: 15%;
+}
+
+.profile .fa-user-circle-o {
+    font-size: 40px;
+    padding: 2%;
+    /* border: thin solid skyblue; */
+    border-radius: 100%;
+    color:rgba(255, 255, 255, 0.9);
+    vertical-align: middle;
+}
+.profile {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    max-width: 1200px;
+    /* left: 10.5%; */
+    z-index: 100;
+    margin: 0% auto;
+    background-color: rgb(62, 29, 66);
+}
+.profile fieldset .close {
+    padding: 8px 12px;
+    box-shadow: inset 01px 0.1px 1px rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    background-color: crimson;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-family: "Zilla Slab", serif;
+    position: relative;
+    left: 5%;
+    top:12px;
+    color: #fff;
+}
+.profile fieldset {
+    margin: 20px;
+    padding: .5%;
+    border:none;
+    border-top: thin solid rgba(238, 232, 232, 0.2);
+}
+.profile fieldset legend {
+    text-align: center;
+    display: inline;
+    width: 40%;
+    font-size: 19px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: gold;
+    color: rgb(70, 150, 187);
+    font-family: "Poppins", sans-serif;
+}
+.profile fieldset .userprofiles {
+    border-top:thin solid rgba(24, 59, 75, 0.2);
+}
+.profile fieldset .userprofiles ul {
+    list-style: none;
+    margin-bottom: 5px;
+}
+.profile fieldset .userprofiles ul li {
+    padding: 3%;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    letter-spacing: 1px;
+    
+    font-weight: 600;
+    color: #fff;
+    color: rgb(70, 150, 187);
+    word-spacing: 1px;
+    margin: 10px;
+}
+.profile fieldset .userprofiles ul li small {
+    position: absolute;
+    letter-spacing: 1px;
+    /* font-size: 20px; */
+    right: 5%;
+}
+.profile fieldset .userprofiles ul li span {
+    position: absolute;
+    /* font-size: 20px; */
+    left: 5%;
+    letter-spacing: 1px;
+}
+ .fa-id-card {
+    color:rgba(255, 255, 255, 0.9);
+}
+.fa-check {
+    color:rgb(55, 212, 55);
+}
+#contacter {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-width: 1200px;
+    padding: 5%;
+    z-index: 1100;
+    top: 0%;
+    letter-spacing: 1px;
+    background-color: rgb(56, 25, 52);
+    background-color: #222;
+}
+#contacter h3 {
+    font-size: 30px;
+    font-family: "Zilla Slab";
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+h3#contacter::first-letter {
+    color: red;
+    font-family:"Mate SC", serif;
+
+}
+#contacter ul   {
+    list-style: none;
+    margin-top: 10px;
+    border-top: thin solid rgba(240, 199, 228, 0.3);
+}
+#contacter ul li {
+    margin: 10px;
+    font-family:"Mate SC", serif;
+    text-align: center;
+}
+#contacter ul li i.fa-phone {
+    color:red;
+}
+#contacter i {
+    color:red;
+}
+#contacter button.close{
+    color: honeydew;
+    padding: 10px 14px;
+    position: absolute;
+    top:80px;
+    border: none;
+    box-shadow: inset 4.2px 1px 0.3px rgb(245, 240, 240);
+    outline: none;
+    border-radius: 5px;
+    font-family:"Mate SC", serif;
+    letter-spacing: 1px;
+    background-color: crimson;
+    font-weight: 600;
+}
+#contacter ul li a{
+    text-decoration: none;
+    padding: 1%;
+    color:honeydew;
+    font-weight: bold;
+
+}
+#contacter span {
+    display: block;
+    text-align: center;
+    /* font-weight: 600; */
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    margin: 35px 0 0 15px;
+    color:honeydew;
+    font-weight: bold;
+    font-family:"Mate SC", serif;
+}#contacter ul li i {
+    color:honeydew;
+    color: yellow;
+}
+.alertMe {
+    position: absolute;
+    right: 0%;
+    top: 48px;
+    width:100%;
+    padding: 6% 10%;
+    border-radius: 5%;
+    border: thin solid rgba(255, 250, 250, 0.4);
+    color:#fff;
+    z-index: 1000;
+    font-family: "Poppins", serif;
+    letter-spacing: 1px;
+    background-color: rgb(42, 26, 56);
+    /* cursor: pointer; */
+}
+.alertMe p {
+    border-bottom: thin solid rgba(255, 250, 250, 0.4);
+    margin-bottom: 5px;
+    font-family: 600;
+    padding: 5%;
+    font-size: 14px;
+    font-family: "Zilla Slab", serif;
+    /* padding: 6%; */
+}
+.alertMe button {
+    box-shadow: inset 1px 01px 4px #fff;
+    border-radius: 4px;
+    padding: 5px 14px;
+    border: none;
+    font-family: "Zilla Slab", serif;
+    letter-spacing: 1.5px;
+    color: #fff;
+    outline: none;
+    font-weight: 600;
+    cursor: pointer;
+    z-index: 1000;
+}
+.alertMe button.yes {
+    background-color: red;
+    position: absolute;
+    right: 9%;
+    margin-left: 5px;
+}
+.alertMe button.no {
+    background-color: rgb(15, 37, 228);
+}

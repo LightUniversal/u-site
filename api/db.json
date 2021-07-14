@@ -1,0 +1,179 @@
+{
+  "Users": [
+    {
+      "firstname": "solver",
+      "lastname": "sui",
+      "email": "solver55@gmail.com",
+      "gender": "Male",
+      "id": 1
+    },
+    {
+      "firstname": "emma",
+      "lastname": "emma",
+      "email": "solver5f5@gmail.com",
+      "gender": "Female",
+      "id": 2
+    },
+    {
+      "firstname": "peter",
+      "lastname": "anulia",
+      "email": "anuliapeter@gmail.com",
+      "gender": "Male",
+      "id": 3
+    },
+    {
+      "firstname": "chiamaka",
+      "lastname": "eze",
+      "email": "chiamakaeze@gmail.com",
+      "gender": "Female",
+      "id": 4
+    },
+    {
+      "firstname": "buchi",
+      "lastname": "emma",
+      "email": "buchi@gmail.com",
+      "gender": "Male",
+      "id": 5
+    },
+    {
+      "firstname": "ichie",
+      "lastname": "somebody",
+      "email": "ichei@gmail.com",
+      "gender": "Male",
+      "id": 6
+    },
+    {
+      "firstname": "joy",
+      "lastname": "ukibe",
+      "email": "joy@gmail.com",
+      "gender": "Male",
+      "id": 7
+    },
+    {
+      "firstname": "solver",
+      "lastname": "lucan",
+      "email": "lucansolver@gmail.com",
+      "gender": "Male",
+      "id": 8
+    },
+    {
+      "firstname": "ichie",
+      "lastname": "ebube",
+      "email": "icheie@gmail.com",
+      "gender": "Male",
+      "id": 9
+    },
+    {
+      "firstname": "noah",
+      "lastname": "wesly",
+      "email": "noahwes@gmail.com",
+      "gender": "Male",
+      "id": 10
+    },
+    {
+      "firstname": "ikechukwu",
+      "lastname": "ebuka",
+      "email": "ichukwuebuka26@gmail.com",
+      "gender": "Male",
+      "id": 11
+    },
+    {
+      "firstname": "kaka",
+      "lastname": "onyeegwu",
+      "email": "kakakaka@gmail.com",
+      "gender": "Female",
+      "id": 12
+    },
+    {
+      "firstname": "light",
+      "lastname": "ifezulumba",
+      "email": "lightsinfo78@gmail.com",
+      "gender": "Male",
+      "id": 13
+    },
+    {
+      "firstname": "chiamaka",
+      "lastname": "eze",
+      "email": "ezeblessing0125@gmail.com",
+      "gender": "Female",
+      "id": 14
+    },
+    {
+      "firstname": "onyedika",
+      "lastname": "obika",
+      "email": "obika@gmail.com",
+      "gender": "Male",
+      "id": 15
+    },
+    {
+      "firstname": "emmanuel",
+      "lastname": "emmanuel",
+      "email": "kakakaka2@gmail.com",
+      "gender": "Male",
+      "id": 16
+    },
+    {
+      "firstname": "ezinne",
+      "lastname": "ezinne",
+      "email": "ezinne@gmail.com",
+      "gender": "Female",
+      "id": 17
+    }
+  ],
+  "dbPosts": [
+    {
+      "email": "lightsinfo78@gmail.com",
+      "name": "light ifezulumba",
+      "post": "I Love this website very well. God's hand is active always on me.....",
+      "comments": [
+        "ok"
+      ],
+      "date": "7/6/2021, 2:03:00 AM",
+      "dislikes": 0,
+      "likes": 1,
+      "id": 20
+    },
+    {
+      "email": "ezeblessing0125@gmail.com",
+      "name": "chiamaka eze",
+      "post": "Uche, how far na?",
+      "comments": [
+        "ok"
+      ],
+      "date": "7/6/2021, 10:53:20 AM",
+      "dislikes": 0,
+      "likes": 1,
+      "id": 21
+    },
+    {
+      "email": "lucansolver@gmail.com",
+      "name": "solver lucan",
+      "post": "Helo joy how are you doing now",
+      "comments": [],
+      "likes": 0,
+      "date": "7/12/2021, 1:04:03 AM",
+      "dislikes": 0,
+      "id": 22
+    },
+    {
+      "email": "joy@gmail.com",
+      "name": "joy ukibe",
+      "post": "No class today....",
+      "comments": [],
+      "likes": 0,
+      "date": "7/13/2021, 9:23:07 AM",
+      "dislikes": 0,
+      "id": 23
+    },
+    {
+      "email": "ezinne@gmail.com",
+      "name": "ezinne ezinne",
+      "post": "i bought something nice from U-TECH, TODAY",
+      "comments": [],
+      "likes": 0,
+      "date": "7/13/2021, 2:22:57 PM",
+      "dislikes": 0,
+      "id": 24
+    }
+  ]
+}

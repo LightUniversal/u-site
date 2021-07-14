@@ -1,0 +1,7 @@
+.chat {
+    position: absolute;
+    display: inline-block;
+    right: 17%;
+    top: 25px;
+    /* background-color: red; */
+}
