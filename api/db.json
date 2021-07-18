@@ -113,11 +113,18 @@
       "id": 16
     },
     {
-      "firstname": "ezinne",
-      "lastname": "ezinne",
-      "email": "ezinne@gmail.com",
-      "gender": "Female",
+      "firstname": "light",
+      "lastname": "solver",
+      "email": "ewr@gmail.com",
+      "gender": "Male",
       "id": 17
+    },
+    {
+      "firstname": "llll",
+      "lastname": "mmmm",
+      "email": "kakakakah@gmail.com",
+      "gender": "Female",
+      "id": 18
     }
   ],
   "dbPosts": [

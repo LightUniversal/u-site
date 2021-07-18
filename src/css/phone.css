@@ -48,7 +48,7 @@ h3.des  {
     font-family: "Zilla Slab";
     font-size: 20px;
     font-weight: 600;
-    color: rgb(53, 46, 22);
+    color: rgb(71, 24, 61);
     margin-left: 10px;
     text-indent: 30px;
     position:relative;
@@ -66,10 +66,10 @@ h3.des  {
     padding: 10px;
     background-color: transparent;
     outline: none;
-    border: thin solid rgba(0, 0, 0, 0.2);
+    border: thin solid rgba(73, 27, 71, 0.2);
     border-radius: 5px;
     color:rgba(59, 20, 20, 0.6);
-    color: rgb(63, 55, 27);
+    color: rgb(63, 27, 57);
     display: inline-block;
     cursor: pointer;
     box-shadow: inset 0.4px 0.0px 0px rgba(40, 44, 41, 0.2);
@@ -99,7 +99,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     display: inline-block;
-    color: rgb(36, 8, 8);
+    color: rgb(54, 18, 49);
     margin: 0 20px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -118,8 +118,7 @@ nav ol li {
     display: inline-block;
 }
 nav ol li a i{
-    color: rgb(19, 23, 248);
-    color:#222;
+    color:rgb(73, 20, 73);
     width:30px;
     padding: 10px;
     display: inline-block;
@@ -135,8 +134,7 @@ nav ol li a i{
     /* height: 50vh; */
     /* color: #ec9a1f; */
     padding:5%;
-    background-color: rgb(0, 60, 255);
-    background-color: #222;
+    background-color: rgb(70, 25, 60);
     /* background-image: url('phonerepair.jpg'); */
     background-repeat: no-repeat;
     background-position: 0% 50%;
@@ -161,13 +159,13 @@ main {
     top: 0px;
     border-radius: 2px;
     right:0%;
-    border-bottom: thin solid rgba(49, 22, 49, 0.2);
+    border-bottom: thin solid rgba(68, 22, 68, 0.2);
     padding: 3px 5px;
     cursor: pointer;
 }
 .user-icon i {
     font-size: 22px;
-    color:#222;
+    color:rgb(65, 21, 55);
     /* border: thin solid rgb(37, 34, 34); */
     border-radius: 100%;
     padding: 5px;
@@ -176,7 +174,7 @@ main {
     position: relative;
     top:-2px;
     /* left: -2%; */ 
-    color: rgb(35, 33, 36);
+    color: rgb(42, 19, 54);
     font-family: 'Poppins', sans-serif;
     letter-spacing:1.5px;
     font-weight: 600;
@@ -196,13 +194,10 @@ main {
     color: red;
     color:#fff;
     font-family:'Nova Script', cursive;
-    /* font-family:; */
 }
 .info #htitle   {
     font-family: 'Mate SC', serif;
     font-size: 45px;
-    /* font-family: 'Poppins', sans-serif; */
-    /* font-family :Script; */
     letter-spacing:1.5px;
     font-weight:bolder;
     text-indent: 17px;
@@ -230,7 +225,6 @@ main {
     margin: 15.5px;
     border: thin solid rgba(196, 194, 194, 0.2);
     opacity: 01;
-    /* color: rgb(13, 76, 136); */
     letter-spacing: 1.6px;
     color: rgba(249, 250, 253, 0.7);
     cursor: pointer;
@@ -258,40 +252,36 @@ main {
 .footer footer .foot-intro {
     width: 100%;
     border-radius: 3px;
-    /* border: thin solid rgba(0,0,0,0.1); */
 }
 .foot-intro::-webkit-scrollbar {
     display: none;
 }
 .foot-intro >div    {
-    /* background-color: rgb(219, 215, 223); */
-    /* padding:5% 5%; */
     margin:5% 0px;
 }
 
 .foot-intro div h4  {
-    /* text-decoration: underline; */
-    /* font-family: 'Didact Gothic', sans-serif; */
     font-family: 'Zilla Slab', serif;
     font-size: 25px;
     color: rgb(22, 9, 209);
     color:#222;
-    /* color:#fff; */
     padding: 0% 0% 2%;
     text-align: center;
-    /* color:rgb(224, 246, 250); */
     font-weight: 600;
     text-indent:1px;
 }
 
 .started    {
-    background-color: rgb(248, 7, 7);
+    background-color: rgb(75, 23, 68);
     /* background-color: blue; */
     color: white;
     display: block;
-    margin:15px 29%;
+    cursor: pointer;
+    margin:25px 29%;
+    text-align: center;
+    text-decoration: none;
     padding: 15px 10px;
-    border: thin solid rgba(255, 255, 255, 0.2);
+    border: thin solid rgba(73, 18, 66, 0.2);
     border-radius: 3px;
     outline: none;
     font-family: 'Zilla Slab', serif;
@@ -312,7 +302,7 @@ main {
     /* text-transform: capitalize; */
     font-size: 15px;
     background-color: blue;
-    background-color: #222;
+    background-color: rgb(66, 20, 60);
     color: rgb(255, 255, 255);
     letter-spacing: 1px;
     box-shadow: 0.1px 0.3px 0.5px rgba(47, 22, 49, 0.1);
@@ -348,7 +338,7 @@ p.postedNews div:first-child {
     text-align: center;
     color: #30373a;
     color:rgb(255, 255, 255);
-    background-color: #222;
+    background-color: rgb(68, 22, 66);
     margin-top: 10px;
     letter-spacing: 1px;
     line-height:25px;
@@ -371,7 +361,6 @@ p.postedNews div:first-child {
     margin:0px 0px;
     background-color: rgb(255, 255, 255);
     margin: 0px 0px 0px 0px;
-    /* border: thin solid rgb(49, 17, 233); */
 }
 .news p .date {
     position: relative;
@@ -379,7 +368,6 @@ p.postedNews div:first-child {
     left: 0%;
     width:100%;
     color: rgba(26, 26, 241, 0.7);
-    /* color:rgb(182, 233, 241); */
     top: 10px;
     letter-spacing: 1px;
     font-family: 'Zilla Slab', serif;
@@ -409,7 +397,6 @@ p.postedNews div:first-child {
 }
 .postup {
     position: fixed;
-    /* background-color: rgb(6, 134, 143); */
     color: cornsilk;
     letter-spacing: 1px;
     text-transform: capitalize;
@@ -422,13 +409,12 @@ p.postedNews div:first-child {
     z-index: 100;
     font-weight: bold;
     display: none;
-    /* border: thin solid crimson; */
     border-radius: 2px;
-    
     font-family: "Poppins", sans-serif;
 }
 .postright {
-    background-color: rgb(6, 134, 143);
+    background-color: rgba(33, 60, 70, 0.5);
+    color:rgba(26, 104, 96, 0.7);
 }
 .postwrong {
     background-color: crimson;
@@ -472,27 +458,19 @@ p.postedNews div:first-child {
 }
 
 .notification   {
-    /* float: right; */
-    /* display: block; */
     top:40px;
     font-size:13px;
     position: relative;
     right:5%;
     position: absolute;
     color: rgb(255, 255, 255);
-    /* margin-right: 10px; */
     text-decoration: none;
-    /* padding:25px 20px; */
-    /* border:thin solid gainsboro; */
-    /* background-color: rgb(15, 15, 87); */
     border-radius: 100%;
 }
 .userp {
     font-size: 30px;
-    color: rgba(13, 158, 184, 0.7);
-    color: rgb(0, 26, 255);
-    color:red;
-    padding: 2% ;
+    color:rgb(82, 18, 60);
+    padding: 2% 3%;
     cursor: pointer;
 }
 .userp + span {
@@ -504,7 +482,7 @@ p.postedNews div:first-child {
 }
 .notification   small {
     position:relative;
-    background-color: rgb(255, 0, 13);
+    background-color: rgb(0, 110, 255);
     padding: 7px 10px;
     left: -10px;
     top: -15px;
@@ -513,10 +491,7 @@ p.postedNews div:first-child {
 article {
     position: relative;
     margin-bottom:5px;
-    background-color: cornsilk;
-    background-color: rgb(2, 19, 252);
-    background-color: #222;
-    /* border-radius: 4px; */
+    background-color: rgb(73, 24, 69);
     padding:5% 10%;
 }
 .link-news  {
@@ -524,8 +499,6 @@ article {
     text-decoration: none;
     color: rgb(255, 255, 255);
     letter-spacing: 1px;
-    /* margin-left: 10px; */
-    /* text-align: center; */
     font-size: 20px;
     
 }
@@ -576,14 +549,14 @@ input[type="hidden"] {
 .abouts   {
     padding: 10%;
     width: 100%;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(60, 19, 68);
 }
 .abouts h4  {
     font-family: 'Didact Gothic', sans-serif;
     font-size:16px;
     padding: 4px;
     letter-spacing: 1px;
-    border-bottom: thin solid red;
+    border-bottom: thin solid rgb(87, 78, 85);
     margin: 0px 0px 10px 0px;
     color:rgb(255, 255, 255);
     /* text-decoration: underline; */
@@ -599,7 +572,7 @@ input[type="hidden"] {
     text-decoration: none;
 }
 .abouts a i {
-    color: rgb(248, 72, 72);
+    color: rgb(180, 173, 240);
     font-size: 20px;
     position: relative;
     top: 3px;
@@ -613,19 +586,6 @@ input[type="hidden"] {
     color: rgb(255, 255, 255);
     letter-spacing: 1px;
     line-height:28px;
-}
-.service {
-    
-}
-.service h3 {
-    font-family: 'Didact Gothic', sans-serif;
-    font-size: 20px;
-    padding: 0px;
-    margin: 0px 0px 10px 10px;
-    color: rgb(14, 29, 236);
-    color:red;
-    /* text-decoration: underline; */
-    text-indent:3px; 
 }
 .learn {
     color: white;
@@ -680,35 +640,12 @@ input[type="hidden"] {
     border: thin solid rgba(63, 63, 65, 0.3);
 
 }
-.service div {
-    background-color: #222;
-    color:rgb(255, 255, 255);
-    padding: 1% 0px;
-    border-radius: 10px;
-    margin: 10px;
-    text-align: center;
-}
-.service div p {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    letter-spacing: 1px;
-    margin: 4% 2% 1% 2%;
-    line-height: 30px;
-    font-size: 13px;
-}
-.service div i {
-    color:white;
-    position: relative;
-    right: 0%;
-}
+
 .web-tut {
     width: 150px;
     border-radius: 100%;
     padding:20px;
     margin-top: 5%;
-}
-.service ul li span {
-    color: rgb(27, 70, 70);
 }
 .copy   {
     display:block;

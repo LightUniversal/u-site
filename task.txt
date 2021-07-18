@@ -2,3 +2,11 @@ Tasks to achieve today
 1. check how to pay online
 2. Add functionalities on the ongoing website
 3. Perfect the website
+
+
+Things to achieve today
+1. Finish the repair section by adding the functionalities for the backend
+2. The buying section and the location and the payment.
+3. contact section
+4. The clicking of the image and the body of the image and the shopping carting icon
+5. Adding to cart and persisting to local storage.

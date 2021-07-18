@@ -3,13 +3,15 @@
     padding: 0%;
     margin: 0%;
 }
+body::-webkit-scrollbar {
+    display: none;
+}
 .container {
     overflow-x: hidden;
     width: 100%;
     margin: 0% auto;
     font-family: "Mate SC", sans-serif;
     background-color: rgba(255, 251, 251, 0.7);
-    /* font-family: "Zilla Slab", sans-serif; */
 }
 input {
     border: thin solid rgba(0,20,30,0.1);
@@ -23,59 +25,54 @@ input {
     box-shadow: 0.3px 0.41px 0.6px rgba(100, 99, 99, 0.4);
 }
 div.top-box  div h3 {
-    color:rgba(49, 39, 56,0.8);
-    margin:15px;
-    letter-spacing: 1.5px;
+    color:indigo;
+    padding-top:2%;
+    text-decoration: underline;
+    margin:3px;
+    font-family: "Mate Sc", sans-serif;
     font-size: 16px;
 }
-div.top-box  div input[type="submit"] {
-    background-color: rgb(161, 40, 155);
-    color: #fff;
-    letter-spacing: 1px;
-}
-div.top-box  div select {
+div.top-box  div h5 {
     padding: 10px;
-    display: block;
-    padding: 10px;
-    width: 90%;
-    border: thin solid rgba(0,20,30,0.1);
-    outline: none;
-    margin:10px 17px;
+    font-weight: 600;
     border-radius: 5px;
-    font-family: 'Poppins', sans-serif;
-    color: rgb(46, 43, 43);
+    font-family: "Mate SC", sans-serif;
+    color: indigo;
+    text-transform: lowercase;
     font-weight: 600;
-    box-shadow: 0.3px 0.41px 0.6px rgba(100, 99, 99, 0.4);
 }
-div.top-box  div label {
+div.top-box div p a {
+    text-decoration: none;
+}
+div.top-box div p a i {
+    vertical-align: middle;
+    padding-left: 10px;
+    padding-right: 1px;
+    color: blue;
+    display: inline-block;
+}
+div.top-box  div p {
     font-weight: 600;
+    color: indigo;
+    font-weight: 600;
+    text-transform: lowercase;
+    padding: 10px;
     opacity: 0.8;
-    letter-spacing: 1px;
     font-size: 14px;
+    width: 100%;
+    font-family: "Mate SC", sans-serif;
 }
 div.top-box  div   {
-    width: 100%;
+    width:100%;
     position: absolute;
-    font-family: 'Poppins', sans-serif;
     text-align: center;
-    z-index: 3000;
+    display: inline-block;
+    text-align: center;
+    z-index:2500;
     padding: 10px 15px;
-    left:4%;
-    border-radius: 3px;
     margin: 10px auto;
     background-color: #fff;
-}div.top-box div input,div.top-box div textarea{
-    display: block;
-    padding: 10px;
-    width: 90%;
-    border: thin solid rgba(0,20,30,0.1);
-    outline: none;
-    margin:10px 15px;
-    border-radius: 5px;
-    font-family: 'Poppins', sans-serif;
-    color: rgb(46, 43, 43);
-    font-weight: 600;
-    box-shadow: 0.3px 0.41px 0.6px rgba(100, 99, 99, 0.4);
+    box-shadow: 0.3px 0.9px 0.9px rgba(81, 3, 136,0.2);
 }
 .title {
     text-align: left;
@@ -125,6 +122,7 @@ div.top-box  div   {
     color: blue;
     cursor: pointer;
 }
+
 .title div {
     border: thin solid rgba(0,20,30,0.1);
     border-top: none;
@@ -137,27 +135,27 @@ div.top-box  div   {
     display: block;
     margin-top: 2px;
     font-weight: 600;
-    color: rgb(92, 89, 89);
     color: blue;
     letter-spacing: 1.5px;
-
-    /* font-family: 'Poppins', sans-serif */
-
 }
 .box .boxes .card-body img {
     width:150px;
-    /* background-color: rgb(71, 71, 73); */
     border-radius: 100%;
     display: block;
 }
 .top-box form {
     position: relative;
     width: 100%;
+    z-index: 2000;
     padding: 1%;
-    background: rgb(31, 31, 37);
+    background-color: rgb(74, 39, 99);
 }
 .top-box form h3 {
     margin: 20px 5%;
+}
+div#title-des {
+    text-transform: lowercase;
+    color: rgb(45, 23, 61);
 }
 .top-box form ul li a i.fa {
     vertical-align: middle;
@@ -169,18 +167,15 @@ div.top-box  div   {
     list-style: none;
     position: absolute;
     right: 10%;
-    /* background: red; */
     width: 50%;
-    /* text-align: center; */
     top: 30px;
 }
 .top-box form ul li {
-    /* display: inline-block; */
     margin: 0% 3%;
     float: right;
 }
 .top-box form ul li a {
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255,0.8);
     text-transform: lowercase;
     font-weight: 600;
     font-size: 14px;
@@ -188,7 +183,7 @@ div.top-box  div   {
     transition-duration: 350ms;
     transition-timing-function: ease-in-out;
     padding:5px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     text-decoration: none;
 }
 .top-box form a.special-services i {
@@ -198,17 +193,21 @@ div.top-box  div   {
 .top-box form a.special-services {
     display: none;
     position: relative;
-    z-index: 4000;
+    z-index: 1500;
 }
 .slash {
     outline: none;
-    border:thin solid rgba(0, 0, 0, 0.1);
-    border-radius: 3px;
-    padding: 10px 15px;
+    border:none;
+    border-radius:5px;
+    margin-top: 20px;
+    padding: 10px 10px;
     font-weight: 600;
+    font-size: 14px;
     letter-spacing: 1px;
     text-transform: lowercase;
-    background-color: crimson;
+    font-family: "Zilla Slab";
+    text-transform: uppercase;
+    background-color: rgb(199, 23, 49);
     color:#fff;
 }
 .top-box form ul li a:hover {
@@ -218,6 +217,15 @@ div.content-box {
     text-align: center;
     position: relative;
     width: 100%;
+}
+.fadeout {
+    color:blue;
+    padding: 4px;
+    border: thin solid lightblue;
+    border-radius: 100%;
+    position: absolute;
+    right: 38%;
+    bottom:80px;
 }
 div.content-box p.bank i {
     padding: 5px;
@@ -234,24 +242,8 @@ div.socials-icons li {
 }
 div.socials-icons {
     position: fixed;
-    right: 10%;
+    right: 13%;
     top:250px;
-}
-div.content-box p.bank {
-    position: fixed;
-    top:260px;
-    background-color:rgb(255, 255, 255);
-    padding:10px 10px;
-    font-family:"Zilla Slab", sans-serif;
-    color:rgb(22, 22, 70);
-    border: thin solid rgba(45, 119, 151, 0.1);
-    cursor: pointer;
-    font-size:13px;
-    transition-property: transform;
-    transition-duration: 350ms;
-    z-index: 2000;
-    border-radius: 3px;
-    left:5%;
 }
 i.state-weather {
     position: relative;
@@ -267,16 +259,15 @@ div.content-box div.weather {
     position: fixed;
     color:rgb(20, 20, 107);
     font-weight:600;
-    z-index: 2000;
-    top:70px;
+    z-index: 1850;
     width: 100%;
+    top:70px;
     font-size: 13px;
     background-color: white;
-    right:1.5%;
+    border: thin solid rgba(66, 16, 51, 0.051);
     letter-spacing:1px;
-    padding: 20px 0px;
+    padding: 25px 0px;
     text-transform: lowercase;
-    /* font-family:"Z", sans-serif; */
 }
 div.weather i {
     color:rgb(255, 217, 0);
@@ -294,12 +285,12 @@ div.content-box p.bank span {
     top:-1.5px;
     left:5px;
 }
+
 div.card-body {
     padding: 15px 30px;
     position: relative;
-    z-index: 1200;
+    z-index: 850;
     border-radius: 2%;
-    /* margin: 3px 10px; */
     transition-property: transform;
     transition-duration: 350ms;
     cursor: pointer;
@@ -310,7 +301,6 @@ div.card-body {
 div.content-box .box {
     overflow: auto;
     position: relative;
-    /* background-color: red; */
     padding-top: 50px;
     background-attachment: fixed;
 }
@@ -342,19 +332,39 @@ div.content-box .box {
     left:10%;
     display: block;
     top: 0px; 
-    /* border: thin solid rgba(100, 99, 99, 0.4); */
-    /* margin: 2% 20%; */
 }
 .order div {
-    /* width:100%; */
     background: rgb(255, 255, 255);
-    /* border: thin solid red; */
-    /* height: 40vh; */
+    position: relative;
+    z-index: 2100;
+    text-align: left;
     box-shadow: 2px 3px 7px rgb(112, 64, 64);
     border: thin solid rgba(153, 143, 143,0.4);
     font-weight: 600;
-    padding:10%;
+    padding:5% 5% 15%;
     text-transform: lowercase;
+}
+div.money {
+    background-color: rgb(255, 248, 241);
+    padding: 3%;
+    width: 100%;
+}
+button.started {
+    border: thin solid rgba(134, 132, 132, 0.3);
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    margin: 2% auto;
+    display: block;
+    padding: 10px 12px;
+    color: rgb(83, 33, 70);
+    font-size: 14px;
+    text-transform: lowercase;
+    text-shadow: 0.1px 0.1px 0.1px gray;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-family: "Mate Sc", sans-serif;
+    background-color: rgb(255, 255, 255);
 }
 .order div i {
     color: blue;
@@ -362,32 +372,52 @@ div.content-box .box {
 .order div img.nau {
     width: 20px;
     margin: 5px;
-    /* border-radius: 100%; */
     vertical-align: middle;
 }
 .order div h4 {
-    background: red;
+    background: rgb(71, 10, 114);
     color: white;
     /* width: 100%; */
-    padding:2%;
+    padding:5%;
     font-weight: 600;
     letter-spacing: 1px;
     text-transform: lowercase;
 }
-.order div a#order {
-    margin: 3% auto;
-    padding: 10px;
-    width: 60%;
-    display: inline-block;
-    background: blue;
+.order button.shift {
+    border: thin solid rgba(255, 255, 255, 0.3);
+    outline:none;
+    font-weight:600;
+    background-color: indigo;
+    padding:5px 15px;
+    font-family:"Mate Sc", sans-serif;
+    letter-spacing: 1px;
+    border-radius:3px;
+    margin: 4% 2%;
     color:#fff;
-    border-radius: 5px;
+    display: block;
+    cursor: pointer;
+    float:right;
+    text-transform: lowercase;
+}
+.order div a#order {
+    margin: 4% 1%;
+    padding:5px 10px;
+    text-align:left;
+    text-decoration: none;
+    display:block;
+    float: left;
+    font-family:"Zilla Slab", sans-serif;
+    background: indigo;
+    color:#fff;
+    cursor: pointer;
+    border-radius: 3px;
 }
 .order div a#order i {
     color: white;
 }
 .order p {
     text-align: left;
+    padding-left: 2%;
 }
 .boxes .card-body:hover {
     transform: scale(1.05);
@@ -397,19 +427,21 @@ div.content-box .box {
     margin: 10px 2%;
     position: relative;
     color: rgb(80, 80, 83);
-    z-index:1200;
+    /* z-index:1200; */
 }
 .display {
     background-color: rgb(255, 255, 255);
     display: none;
+    position: relative;
+    z-index: 1000;
 }
 .display .product {
     width: 200px;
 }
 .display small.star {
-    color: rgb(243, 228, 13);
+    color: rgb(85, 27, 82);
     margin: 1px 2px;
-    font-size: 13px;
+    font-size: 11px;
 }
 .display #title-des .fa-tag, .display #title-des .fa-feed, .fa-thumbs-up {
     color: blue;
@@ -418,8 +450,9 @@ div.content-box .box {
 #title-des .overview {
     color:rgb(59, 58, 58);
     font-size: 15px;
-    margin: 10px 0% 2px;
-    font-family: "Poppins";
+    margin: 5px 0% 2px;
+    font-weight: 600;
+    /* font-family: "Poppins"; */
     letter-spacing: 1px;
     /* text-transform: lowercase; */
 }
@@ -444,10 +477,10 @@ div.content-box .box {
 div.display div.act {
     /* padding: 1% 10%; */
     position: relative;
-    border: thin solid rgba(110, 108, 108,0.2);
+    border: thin solid rgba(47, 136, 252, 0.1);
     margin: 10px auto;
     height: 4em;
-    z-index: 1200;
+    /* z-index: 1000; */
     /* background-color: red; */
     border-radius: 4px;
     width: 100%;
@@ -458,8 +491,8 @@ div.display div.act {
     top: 20px;
     left: 3%;
     font-weight: 600;
-    letter-spacing: 1px;
-    color: #222;
+    letter-spacing: 1.5px;
+    color: rgba(77, 20, 67, 0.9);
     font-size: 16px;
 }
 
@@ -486,36 +519,42 @@ div.display div.act {
     display: none;
 }
 /* footer */
-footer {
+footer  {
     width:100%;
-    padding-top:5%;
+    padding:5%;
+    position: relative;
     background-color: #fff;
+} footer  p , footer  h3{
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: indigo;
 }
-footer form input#email, footer form input#name {
-    width:34.2%;
-    display:inline-block;
-    margin:5px 10px;
+footer small {
+    color: indigo;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 14px;
+    vertical-align: text-top;
+    text-shadow: 0.1px 0.1px 0.1px rgb(255, 255, 255);
+}
+footer i.fa-arrow-up {
+    color:rgb(3, 115, 243);
+    border: thin solid rgba(6, 93, 255, 0.1);
+    padding: 5px;
+    transition-property: transform;
+    transition-timing-function: ease-in-out;
+    transition-duration: 500ms;
+    border-radius: 100%;
+    position: absolute;
+    cursor: pointer;
+    top: 40px;
+    right: 10%;
+}
+footer i.fa-arrow-up:hover,
+footer i.fa-arrow-up:active {
+    transform: scale(1.3);
 }
 
-footer form textarea, footer form input#send{
-    width: 70%;
-    margin:5px 20px;
-    border: thin solid rgba(0,20,30,0.1);
-    outline: none;
-    padding: 10px ;
-    border-radius: 5px;
-    font-family: 'Poppins', sans-serif;
-    color: rgb(46, 43, 43);
-    font-weight: 600;
-    box-shadow: 0.3px 0.41px 0.6px rgba(100, 99, 99, 0.4);
-}
-footer form input#send {
-    background-color: rgb(0, 0, 0);
-    color:rgb(255, 255, 255);
-    font-weight:600;
-    text-shadow: 0.1px 0.11px 0.1px gray;
-    letter-spacing: 1px;
-}
 @media only screen and (max-width:768px) {
     .box::-webkit-scrollbar {
         display: none;
@@ -523,13 +562,9 @@ footer form input#send {
     .add {
         display: none;
     }
-    .order p {
-        text-align: center;
-    }
     .top-box form {
         position: fixed;
         top: 0;
-        z-index: 3000;
     }
     div.top-box {
         margin-bottom:90px;
@@ -558,11 +593,13 @@ footer form input#send {
         text-transform: lowercase;
     }
     i.fa-bars {
+        border: thin solid rgba(255, 255, 255,0.1);
+        padding: 10px;
         display: block;
         position: absolute;
         right: 10%;
         font-size: 20px;
-        top: 29px;
+        top: 20px;
         color: rgb(255, 255, 255);
         cursor: pointer;
         opacity: 01;
@@ -576,27 +613,29 @@ footer form input#send {
         width: inherit;
         position: relative;
         padding:1%;
-        margin-left: 47px;
-        z-index: 1000;
-        border-top: 0.01px solid rgba(222, 184, 135,0.4);
+        margin-left:65px;
+        border-top: 0.01px solid rgba(222, 184, 135,0.2);
         border-radius: 0px;
-        border-left: 0.01px solid rgba(222, 184, 135, 0.4);
-
     }
     div.top-box div {
         top: -1.7%;
         border-radius: 0%;
-        display: block;
+        display:none;
         left: 0%;
+    }
+    .fadeout {
+        right: 16%;
+        font-size: 14px;
+        cursor: pointer;
     }
     div.top-box form ul li{
         display: block;
         margin: 20px 3px;
-        padding-left:10%;
+        padding-left:2%;
         float: none;
     }
     div.top-box form ul li a{
-        color: #fff;
+        color: rgba(255, 255, 255,0.8);
         border: none;
     }
     div.top-box form a.show-services {
@@ -616,36 +655,18 @@ footer form input#send {
     }
     footer {
         margin-top: 30px;
-        border-top: thin solid rgba(0, 0, 0, 0.1);
+        border-top: thin solid rgba(0, 0, 0, 0.051);
+        border-bottom: thin solid rgba(0, 0, 0, 0.051);
     }
-    footer form input#email, footer form input#name {
-        width:70%;
-        display:inline-block;
-        margin:5px 10px;
-    }
-    footer h3 {
+    footer h3,footer  p {
         text-transform: lowercase;
         letter-spacing: 1px;
+        margin: 5px;
         color: indigo;
     }
-    footer form textarea, footer form input#send{
-        width: 70%;
-        margin:5px 20px;
-        height: 10vh;
-        border: thin solid rgba(0,20,30,0.1);
-        outline: none;
-        padding: 10px ;
-        border-radius: 5px;
-        font-family: 'Poppins', sans-serif;
-        color: rgb(46, 43, 43);
-        font-weight: 600;
-        box-shadow: 0.3px 0.41px 0.6px rgba(100, 99, 99, 0.4);
+    div.weather {
+        width:100%;
     }
-    footer form input#send {
-        background-color: indigo;
-        color:rgb(255, 255, 255);
-        font-weight:600;
-        text-shadow: 0.1px 0.11px 0.1px gray;
-        letter-spacing: 1px;
-    }
+    
+    
 }
