@@ -4,23 +4,25 @@
   "description": "Starter pack for compiling ES6+ apps to ES5",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages",
     "start": "webpack-dev-server --output-public-path=/build/  --mode development --progress --open --hot",
     "build": "webpack --mode production --progress",
-    "json:server" : "json-server --watch api/db.json --port 3004"
+    "json:server": "json-server --watch api/db.json --port 3004"
   },
-  "author": "Brad Traversy",
+  "author": "Lucan Solver",
   "license": "MIT",
+  "homepage": "https://lucanly.github.io/Phone-Doctor",
   "devDependencies": {
     "@babel/core": "^7.4.3",
-    "babel-loader": "^8.0.5",
     "@babel/polyfill": "^7.4.3",
     "@babel/preset-env": "^7.4.3",
+    "babel-loader": "^8.0.5",
     "webpack": "^4.16.1",
     "webpack-cli": "^3.0.8",
-    "webpack-dev-server": "^3.1.10"
+    "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
+    "gh-pages" : "^1.2.0",
     "json-server": "^0.16.3"
   }
 }

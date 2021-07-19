@@ -81,9 +81,9 @@ function updateValues() {
     -1
   ).toFixed(2);
 
-  balance.innerText = `$${total}`;
-  money_plus.innerText = `$${income}`;
-  money_minus.innerText = `$${expense}`;
+  balance.innerHTML = `<span>&#8358</span> ${total}`;
+  money_plus.innerHTML = `<span>&#8358</span> ${income}`;
+  money_minus.innerHTML = `<span>&#8358</span> ${expense}`;
 }
 
 // Remove transaction by ID
