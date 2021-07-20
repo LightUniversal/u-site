@@ -142,6 +142,7 @@ class Shop {
             console.log(src, name, name_des, amount);
             html = `
                 <div class="body">
+                    <i class="fa fa-arrow-up fadeout"></i>
                     <div class="img-body animated fadeInDown">
                         <img src="${src}" alt="" class="product">
                     </div>
@@ -237,4 +238,9 @@ document.addEventListener('DOMContentLoaded', ()=> {
             ${data.WeatherText} ${data.Temperature.Metric.Value}&deg;C`;
         }
     });
+})
+document.addEventListener('scroll', (e)=> {
+    if(scrollY>450) {
+        document.querySelector('div.weather').style.top ="0px";
+    }
 })
